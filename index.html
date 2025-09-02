@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutoring with Varshitha</title>
+  <style>
+    /* Reset & Fonts */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #2196f3, #1e88e5);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+
+    /* Navigation */
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    /* Sections */
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 15px;
+      color: #2196f3;
+    }
+    section p, ul {
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    /* Services List */
+    ul li {
+      margin: 10px 0;
+      list-style: none;
+      padding: 10px;
+      background: #e3f2fd;
+      border-radius: 8px;
+    }
+
+    /* Contact Form */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    input, textarea, button {
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #2196f3;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #1976d2;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+      margin-top: 40px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      nav { flex-wrap: wrap; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Learn with Varshitha</h1>
+    <p>Personalized Tutoring to Help You Excel</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#subjects">Subjects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About the Tutor</h2>
+    <p>Hello! I'm Varshitha, a passionate tutor dedicated to helping students 
+    understand concepts clearly and build confidence. With years of teaching 
+    experience, I offer one-on-one and group sessions tailored to your needs.</p>
+  </section>
+
+  <section id="subjects">
+    <h2>Subjects I Teach</h2>
+    <ul>
+      <li>Mathematics (All Levels)</li>
+      <li>Science (Physics, Chemistry, Biology)</li>
+      <li>English & Communication Skills</li>
+      <li>Computer Programming Basics</li>
+      <li>Exam Preparation & Study Skills</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Learn with Varshitha | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
